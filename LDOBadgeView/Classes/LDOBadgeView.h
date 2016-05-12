@@ -17,7 +17,7 @@ IB_DESIGNABLE
 
 @property (nonatomic) IBInspectable UIFont *font;
 
-@property (nonatomic) CGFloat IBInspectable horizontalPadding;
-@property (nonatomic) CGFloat IBInspectable verticalPadding;
+@property (nonatomic) IBInspectable CGFloat horizontalPadding;
+@property (nonatomic) IBInspectable CGFloat verticalPadding;
 
 @end
