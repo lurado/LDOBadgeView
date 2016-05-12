@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LDOBadgeView_Example' do
+  pod 'LDOBadgeView', :path => '../'
+
+  target 'LDOBadgeView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
