@@ -7,6 +7,7 @@
 //
 
 @import UIKit;
+@import LDOBadgeView;
 
 @interface LDOViewController : UIViewController
 

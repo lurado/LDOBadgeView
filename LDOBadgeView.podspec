@@ -9,34 +9,18 @@
 Pod::Spec.new do |s|
   s.name             = "LDOBadgeView"
   s.version          = "0.1.0"
-  s.summary          = "A short description of LDOBadgeView."
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = "A designable and inspectable bubble view."
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+"A designable and inspectable bubble view."
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/LDOBadgeView"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/lurado/LDOBadgeView"
   s.license          = 'MIT'
-  s.author           = { "Sebastian Ludwig" => "sebastian@lurado.de" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/LDOBadgeView.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { "Julian Raschke und Sebastian Ludwig GbR" => "info@lurado.com" }
+  s.source           = { :git => "https://github.com/lurado/LDOBadgeView.git", :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '7.0'
 
   s.source_files = 'LDOBadgeView/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'LDOBadgeView' => ['LDOBadgeView/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

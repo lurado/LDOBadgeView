@@ -1,0 +1,16 @@
+PODS:
+  - LDOBadgeView (0.1.0)
+
+DEPENDENCIES:
+  - LDOBadgeView (from `../`)
+
+EXTERNAL SOURCES:
+  LDOBadgeView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LDOBadgeView: bf9c3b05d5fa13d0043113eba35961fde7979236
+
+PODFILE CHECKSUM: a6861bbd76565855ffa3f7d0dd78ef2d6cdde25b
+
+COCOAPODS: 1.0.0
